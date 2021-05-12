@@ -2,7 +2,7 @@
 CC = gcc
 
 #compiler flags:
-CFLAGS  = -g -Werror -Wall -Wno-unknown-pragmas 
+CFLAGS  = -g -Werror -Wall -Wno-unknown-pragmas
 
 # define any libraries to link into executable:
 LIBS = -lpthread -lrt

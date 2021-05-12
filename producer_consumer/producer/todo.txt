@@ -1,0 +1,15 @@
+Producer:
+
+Locate the file on the disk
+Open the file
+Read contents from file into a buffer
+Share the buffer with consumer process
+Destory whatever is borrowed
+
+Consumer:
+Map the buffer into virtual address space
+Read from buffer
+Process it -- Write into a different file
+Destory whatever borrowed
+
+
