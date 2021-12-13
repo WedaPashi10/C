@@ -206,20 +206,25 @@ int main(void)
     printall(head);
     addlast(head, 30);
     printall(head);
+    printf("Adding at first position..\n");
     addfirst(head, 5);
     printall(head);
     addlast(head, 40);
     printall(head);
+    printf("Adding at first position..\n");
     addfirst(head, 44);
     printall(head);
+    printf("Adding at 4th position..\n");
     insertAt(head, 88, 4);
     printall(head);
+    printf("Adding at 40th position..\n");
     insertAt(head, 88, 40);
     printall(head);
     addlast(head, 50);
     printall(head);
+    printf("Deleting data=20 if found..\n");
     find_delete(head, 20);
-
+    
     printall(head);
     // Wrap-up
     head = cleanup(head);
@@ -227,6 +232,4 @@ int main(void)
     printf("Exiting..\n");
     return 0;
 }
-
-
 
